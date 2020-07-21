@@ -27,7 +27,7 @@ be send to the corresponding Candidate. This AcceptVote is managed by a Candidat
                                         TimeOut | ArmElectionTimeOut
                  +-------------------------------------------------------------------------+
                  |                                                                         |
-                 v                   RequestVote | AcceptVote                              |                                                  |
+                 v                   RequestVote | AcceptVote                              |
           +-> Elector ------------------------------------------------------------+        |
           |      |                                                                |        |
           |      |  TimeOut | ArmElectionTimeOut StartElection                    v        |

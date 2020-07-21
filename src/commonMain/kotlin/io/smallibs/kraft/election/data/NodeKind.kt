@@ -22,7 +22,7 @@ import io.smallibs.kraft.common.Term.Companion.term
  *                                         TimeOut | ArmElectionTimeOut
  *                  +-------------------------------------------------------------------------+
  *                  |                                                                         |
- *                  v                   RequestVote | AcceptVote                              |                                                  |
+ *                  v                   RequestVote | AcceptVote                              |
  *           +-> Elector ------------------------------------------------------------+        |
  *           |      |                                                                |        |
  *           |      |  TimeOut | ArmElectionTimeOut StartElection                    v        |
